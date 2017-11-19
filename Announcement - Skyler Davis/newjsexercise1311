@@ -1,0 +1,17 @@
+</!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<p class="roscoe">Ye</p>
+<p class="roscoe">No</p>
+<p class="roscoe">Maybe</p>
+<button id="click">change</button>
+
+<script>
+var button = document.getElementById('click');
+
+
+</body>
+</html>

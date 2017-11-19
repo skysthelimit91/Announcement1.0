@@ -1,0 +1,247 @@
+</!DOCTYPE html>
+<html>
+<head>
+	<title>Cast</title>
+
+	<style type="text/css">
+	
+
+.slidecontainer img:nth-child(5) {
+  animation: slideshow 35s 0s infinite;       /*  The slideshow lasts 35 seconds, 7 seconds per image, and loops repeatedly*/
+}
+.slidecontainer img:nth-child(4) {
+  animation: slideshow 35s 7s infinite;
+}
+.slidecontainer img:nth-child(3) {
+  animation: slideshow 35s 14s infinite;
+}
+.slidecontainer img:nth-child(2) {
+  animation: slideshow 35s 21s infinite;
+}
+.slidecontainer img:nth-child(1) {
+  animation: slideshow 35s 28s infinite;
+}
+
+		
+
+.slidecontainer{     /*This will allow me to keep the images in the same space (on top of one another) and make sure that the images stay in the div as well.*/
+
+
+ position:relative;
+ margin-bottom: 50px;
+}
+.slidecontainer img {
+ position:absolute;
+
+}          
+
+@keyframes slideshow{            /* changing the opacity at different intervals allows the images to have a fade in and out effect*/
+  0%{
+    opacity: 1;
+  }
+  20% {
+    opacity:1;
+  }
+  40% {
+    opacity:0;
+  }
+  80% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+
+.newheadline{
+
+
+	justify-content: center;
+	padding-bottom: 120px;
+	padding-left: 170px;
+	display: inline-block;
+}
+
+a{
+
+color:rgba(248,233,32,1);
+}
+
+
+li a{
+
+	text-decoration: none;
+}
+
+
+li a:hover{
+    background-color:gray;
+   }
+
+ul li{
+
+	display: inline;
+	color: rgba(248,233,32,1);
+	font-style: bold;
+	animation: sunnyframes 7s ease-in-out 0s;
+
+	
+}
+
+ul{
+
+	list-style: none;
+	display: inline;
+
+	
+}
+
+nav{
+
+	display: inline;
+	font-size: 15pt;
+	position: absolute;
+	right: 0;
+	top: 0;
+	border-color: gray;
+	margin-right: 30px;
+	padding-top: 30px;
+
+
+
+
+}
+
+@keyframes sunnyframes{
+
+	0%{
+		margin: -2000px;
+		height: 10PX;
+		background-color:rgba(248,233,32,1);
+	}
+
+	5%{
+		height: 8px;
+		background-color:rgba(248,233,32,1);
+	}
+
+}
+
+.parallax{
+
+	height: 700px;
+	width: 100%;
+	background-image: url("iasip2.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+
+	color: rgba(248,233,32,1);
+  	font-family:"Lucida Big Casual";  
+  	padding: 0px 0px 75px 0px;
+  	margin: 0;
+
+
+}
+
+#two{
+
+	background-color: grey;
+	padding: 400px;
+	display: inline-block;
+	
+}
+h1{
+
+	color: rgba(248,233,32,1);
+	
+
+
+
+}
+h2{
+
+	color: rgba(248,233,32,1);
+	text-align: center;
+	
+
+}
+
+#one{
+	padding-top: 10px;
+	font-size: 15pt;
+	color: white;
+	justify-content: center;
+	display: inline;
+
+	
+
+}
+
+
+
+
+
+
+	</style>
+
+
+</head>
+<body>
+	<div id="parent">
+	<div class="parallax" id="three"><div id="navsection">
+	<h1>It's Always Sunny in Philadelphia</h1>
+
+</div>
+<nav>
+
+<ul><li><a href="index.html">Home</a></li></ul>
+
+<ul><li><a href="cast.html">Cast</a></li></ul>
+
+<ul><li><a href="quotes.html">Memorable Quotes</a></li></ul>
+
+<ul><li><a href="games.html">Games</a></li></ul>
+
+
+
+
+</nav>
+
+
+</div>
+	<div><section class="iasip" id="two"><div class="iasip" id="one">
+
+	<div class="newheadline"><h1>Season 12 Now on Hulu!</h1></div>
+	<br>
+	<br>
+	<br>
+	<br>
+
+	<h2>Meet the Gang</h2>
+	<p>Glenn Howerton on the addition of Danny Devito after the first season: "In terms of the kind of names that were being thrown around, Danny was perfect. He’s made a career out of playing … despicable characters. Our characters are kind of despicable, but we like to think that they’re lovable in their own kind of way."</p></div>
+
+
+<div class="slidecontainer">
+    <img src="iasip6.png">
+    <img src="iasip7.png">
+    <img src="iasip8.png">
+    <img src="iasip9.png">
+    <img src="iasip10.png">
+    
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+</div>
+
+</body>
+</html>
